@@ -4,7 +4,7 @@ A graphical endless-runner game written in MASM-style x86 assembly for DOS. It e
 
 ![Assembly](https://img.shields.io/badge/x86-Assembly-6E4C13)
 ![Platform](https://img.shields.io/badge/platform-DOS%20%2F%20DOSBox-2563EB)
-![Checks](https://github.com/SameetAsadullah/T-Rex-Dino-Game-in-Assembly/actions/workflows/quality.yml/badge.svg)
+![Checks](https://github.com/SameetAsadullah/t-rex-assembly-game/actions/workflows/quality.yml/badge.svg)
 
 ## Highlights
 
