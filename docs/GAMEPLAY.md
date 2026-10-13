@@ -21,4 +21,4 @@ The game is a DOS-era graphical take on the endless-runner format, implemented i
 
 ## Technical structure
 
-`src/main.asm` uses the MASM small memory model and BIOS/DOS interrupts for graphics, input, timing, sound, and file operations. Coordinate arrays encode the dinosaur, scenery, menu, and obstacle shapes. The source is intentionally preserved as the original academic implementation.
+`src/main.asm` uses the MASM small memory model and BIOS/DOS interrupts for graphics, input, timing, sound, and file operations. Coordinate arrays encode the dinosaur, scenery, menu, and obstacle shapes. The source is intentionally preserved in its original implementation form.

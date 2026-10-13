@@ -58,7 +58,7 @@ Keep `file.txt` and `Score.txt` beside the executable because the game accesses 
 
 ## Project status
 
-This repository preserves the original academic assembly project and its source. Modern continuous integration validates repository structure and runtime assets; building the 16-bit DOS executable still requires MASM-compatible tooling.
+This repository preserves the original assembly implementation and its source. Continuous integration validates repository structure and runtime assets; building the 16-bit DOS executable still requires MASM-compatible tooling.
 
 ## Authors
 
