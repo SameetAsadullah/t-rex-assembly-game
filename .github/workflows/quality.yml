@@ -1,0 +1,21 @@
+name: Assembly project checks
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Validate source and runtime files
+        run: python3 scripts/validate_project.py
+
+      - name: Check whitespace
+        run: git diff --check
